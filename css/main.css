@@ -78,10 +78,32 @@
   .dropdown:hover .dropdown-content {
       display: block;}
   
+
 .logo{
-    display:block;
-    margin:auto;
-    width:40%;
-    padding-top: 50px;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    height:auto;
+}
+
+@media screen and (max-width: 900px) {
+
+   header{
     
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+   
+ }
+
+
 }
